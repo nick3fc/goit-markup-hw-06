@@ -342,7 +342,7 @@ a {
   }
 }
 .hero-header {
-  max-width: 160px;
+  max-width: 216px;
   margin: 0 auto;
   margin-bottom: 72px;
   text-align: center;
@@ -623,10 +623,11 @@ a {
     column-gap: 24px;
   }
 }
-/* @media screen and (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
   .portfolio-list {
+    row-gap: 48px;
       }
-} */
+}
 .portfolio-list-item {
   max-width: 100%;
   transition-property: box-shadow;
@@ -732,6 +733,8 @@ a {
     flex-wrap: wrap;
     flex-direction: row;
     column-gap: 24px;
+    /* row-gap: 72px; */
+    
   }
 }
 @media screen and (min-width: 1158px) {
@@ -859,14 +862,15 @@ a {
 @media screen and (min-width: 768px) {
   .subscribe-set {
     flex-direction: row;
+    gap: 24px;
     width: 453px;
   }
 }
-@media screen and (min-width: 1158px) {
+/* @media screen and (min-width: 1158px) {
   .subscribe-set {
-    gap: 24px;
+    
   }
-}
+} */
 .subscribe-email {
   outline: none;
   width: 100%;
