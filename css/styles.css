@@ -53,7 +53,7 @@ a {
   width: 100%;
   padding-top: 96px;
   padding-bottom: 96px;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 /* @media screen and (min-width: 768px) {
 } */
@@ -85,7 +85,7 @@ a {
   max-width: 320px;
   padding: 0 16px;
   margin: 0 auto;
-  outline: 1px solid blue;
+  /* outline: 1px solid blue; */
 }
 @media screen and (min-width: 768px) {
   .container {
