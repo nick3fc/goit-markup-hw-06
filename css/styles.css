@@ -132,7 +132,7 @@ a {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -265,7 +265,7 @@ a {
   .contacts-item-link {
     /* font-weight: 400; */
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
   }
 }
@@ -1066,7 +1066,7 @@ a {
   margin-bottom: 16px;
 }
 .input-set label {
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   position: relative;
   display: flex;
@@ -1113,7 +1113,7 @@ a {
 
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 
