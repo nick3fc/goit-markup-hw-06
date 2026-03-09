@@ -49,7 +49,7 @@
           </li>
         </ul>
       </address>
-      <button class="mobile-menu-btn">
+      <button class="mobile-menu-btn" type="button">
         <svg class="mobile-menu-icon" width="24" height="24">
           <use href="./images/icons.svg#menu-btn"></use>
         </svg>
@@ -283,8 +283,8 @@
         <ul class="portfolio-list">
           <li class="portfolio-list-item">
             <div class="portfolio-image-wrapper">
-              <img class="portfolio-item-image" src="./images/BankingApp.jpg" alt="picture of banking app project"
-                width="360">
+              <img class="portfolio-item-image" srcset="./images/BankingApp.jpg 1x, ./images/BankingApp@2x.jpg 2x"
+                src="./images/BankingApp.jpg" alt="picture of banking app project" width="360">
               <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
@@ -295,8 +295,9 @@
           </li>
           <li class="portfolio-list-item">
             <div class="portfolio-image-wrapper">
-              <img class="portfolio-item-image" src="./images/CashlessPayment.jpg"
-                alt="picture of cashless payment project" width="360">
+              <img class="portfolio-item-image"
+                srcset="./images/CashlessPayment.jpg 1x, ./images/CashlessPayment@2x.jpg 2x"
+                src="./images/CashlessPayment.jpg" alt="picture of cashless payment project" width="360">
               <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
@@ -307,8 +308,8 @@
           </li>
           <li class="portfolio-list-item">
             <div class="portfolio-image-wrapper">
-              <img class="portfolio-item-image" src="./images/MeditationApp.jpg" alt="picture of meditation app project"
-                width="360">
+              <img class="portfolio-item-image" srcset="./images/MeditationApp.jpg 1x, ./images/MeditationApp@2x.jpg 2x"
+                src="./images/MeditationApp.jpg" alt="picture of meditation app project" width="360">
               <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
@@ -319,8 +320,8 @@
           </li>
           <li class="portfolio-list-item">
             <div class="portfolio-image-wrapper">
-              <img class="portfolio-item-image" src="./images/TaxiService.jpg" alt="picture of taxi service project"
-                width="360">
+              <img class="portfolio-item-image" srcset="./images/TaxiService.jpg 1x, ./images/TaxiService@2x.jpg 2x"
+                src="./images/TaxiService.jpg" alt="picture of taxi service project" width="360">
               <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
@@ -331,8 +332,9 @@
           </li>
           <li class="portfolio-list-item">
             <div class="portfolio-image-wrapper">
-              <img class="portfolio-item-image" src="./images/ScreenIllustrations.jpg"
-                alt="picture of screen illustrations project" width="360">
+              <img class="portfolio-item-image"
+                srcset="./images/ScreenIllustrations.jpg 1x, ./images/ScreenIllustrations@2x.jpg 2x"
+                src="./images/ScreenIllustrations.jpg" alt="picture of screen illustrations project" width="360">
               <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
@@ -343,8 +345,8 @@
           </li>
           <li class="portfolio-list-item">
             <div class="portfolio-image-wrapper">
-              <img class="portfolio-item-image" src="./images/OnlineCourses.jpg" alt="picture of online courses project"
-                width="360">
+              <img class="portfolio-item-image" srcset="./images/OnlineCourses.jpg 1x, ./images/OnlineCourses@2x.jpg 2x"
+                src="./images/OnlineCourses.jpg" alt="picture of online courses project" width="360">
               <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker
                 App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
             </div>
@@ -481,37 +483,40 @@
   </div>
   <!-- mobile header menu window section-->
 
-  <div class="mobile-menu">
-    <!-- <div class="mobile-menu is-open"> -->
+  <!-- <div class="mobile-menu"> -->
+  <div class="mobile-menu is-open">
 
-    <button class="close-btn">
+    <button class="close-btn" type="button">
       <svg class="close-btn-icon" width="8" height="8">
         <use href="./images/icons.svg#close" />
       </svg>
     </button>
 
-    <ul class="mobile-menu-navlist">
+    <nav class="mobile-menu-navblock">
+      <ul class="mobile-menu-navlist">
 
-      <li class="mobile-menu-navlist-item">
-        <a class="mobile-menu-navlist-link is-active" href="#">Studio</a>
-      </li>
-      <li class="mobile-menu-navlist-item">
-        <a class="mobile-menu-navlist-link" href="#">Portfolio</a>
-      </li>
-      <li class="mobile-menu-navlist-item">
-        <a class="mobile-menu-navlist-link" href="#">Contacts</a>
-      </li>
+        <li class="mobile-menu-navlist-item">
+          <a class="mobile-menu-navlist-link is-active" href="#">Studio</a>
+        </li>
+        <li class="mobile-menu-navlist-item">
+          <a class="mobile-menu-navlist-link" href="#">Portfolio</a>
+        </li>
+        <li class="mobile-menu-navlist-item">
+          <a class="mobile-menu-navlist-link" href="#">Contacts</a>
+        </li>
+      </ul>
+    </nav>
 
-    </ul>
-    <ul class="mobile-menu-contactslist">
-      <li class="mobile-menu-contactslist-item"><a class="mobile-menu-contactslist-link"
-          href="mailto:info@devstudio.com">info@devstudio.com</a>
-      </li>
-      <li class="mobile-menu-contactslist-item"><a class="mobile-menu-contactslist-link" href="tel:+110001111111">+11
-          (000) 111-11-11</a>
-      </li>
-    </ul>
-
+    <address class="mobile-menu-contactsblock">
+      <ul class="mobile-menu-contactslist">
+        <li class="mobile-menu-contactslist-item"><a class="mobile-menu-contactslist-link"
+            href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="mobile-menu-contactslist-item"><a class="mobile-menu-contactslist-link" href="tel:+110001111111">+11
+            (000) 111-11-11</a>
+        </li>
+      </ul>
+    </address>
     <ul class="mobile-menu-socialslist">
 
       <li class="footer-social-item">
