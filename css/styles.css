@@ -153,6 +153,7 @@ a {
   .header-block {
     max-width: 768px;
     height: 72px;
+    justify-content: flex-start;
   }
 }
 @media only screen and (min-width: 1158px) {
